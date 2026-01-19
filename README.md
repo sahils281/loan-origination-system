@@ -40,7 +40,6 @@ concurrency handling, database modeling, and service separation.
 - **Testing:** Pytest
 
 ---
-
 ## Project Structure
 
 ```txt
@@ -66,7 +65,6 @@ loan-origination-system/
 ├── .env.example
 └── README.md
 
----
 
 ## Setup & Run Instructions
 
