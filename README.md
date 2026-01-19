@@ -43,22 +43,23 @@ concurrency handling, database modeling, and service separation.
 
 ## Project Structure
 
+```txt
 loan-origination-system/
 ├── app/
-│ ├── **init**.py
-│ ├── main.py
-│ ├── config.py
-│ ├── database.py
-│ ├── models/
-│ ├── schemas/
-│ ├── repositories/
-│ ├── services/
-│ └── api/v1/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   ├── database.py
+│   ├── models/
+│   ├── schemas/
+│   ├── repositories/
+│   ├── services/
+│   └── api/v1/
 ├── scripts/
-│ └── seed_agents.py
+│   └── seed_agents.py
 ├── tests/
 ├── postman/
-│ └── LOS_API_Collection.json
+│   └── LOS_API_Collection.json
 ├── docker-compose.yml
 ├── Dockerfile
 ├── requirements.txt
@@ -80,7 +81,7 @@ loan-origination-system/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/sahils281/loan-origination-system
 cd loan-origination-system
 ```
 
@@ -170,7 +171,6 @@ uvicorn app.main:app --reload
 ## Notes
 
 - Notifications are mocked via logs
-- Focus is on correctness and backend design principles
 - Docker is used only for database setup
 
 ---
